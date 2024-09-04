@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد ميلادي الـ21 </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="welcome-container">
+        <img src="imgs/5962818885516379613.jpg" alt="صورة عيد ميلادي" class="profile-picture">
+        <h1> مساء الخيير</h1>
+        <p>دوس هنا عشان تحتفل معايا</p>
+        <button id="startButton">يلا بينا</button>
+    </div>
+
+    <div id="surpriseContainer" class="hidden">
+        <h2>
+شكرا انك بتظيط معايا</h2>
+        <button id="showMessageButton">شوف المسج دي بقي</button>
+        <div id="personalMessage" class="hidden">
+            <!-- سيتم عرض الرسالة الشخصية هنا -->
+        </div>
+    </div>
+
+    <div id="greetingCardContainer" class="hidden">
+        <h2>يلا عيد عليا يا بيه</h2>
+        <form id="greetingForm">
+            <input type="text" id="name" placeholder=" اسمك يا فنان" required>
+            <textarea id="message" placeholder="اكتبلي حاجة حلوة هنا" required></textarea>
+            <button type="submit">إرسال التهنئة</button>
+        </form>
+        <div id="greetingsListContainer">
+            <h3>التهاني:</h3>
+            <ul id="greetingsList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* تدرج لوني رائع */
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-container {
+    padding: 50px;
+    margin-top: 20vh;
+    background-image: url('imgs/5962818885516379620.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.welcome-container p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #ff1493;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6007f;
+}
+
+.hidden {
+    display: none;
+}
+
+#surpriseContainer {
+    margin-top: 50px;
+}
+
+#surpriseContainer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#surpriseContainer p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+#personalMessage {
+    background-color: #ffe6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.25rem;
+}
+
+#personalMessage.hidden {
+    display: none;
+}
+
+#greetingCardContainer {
+    margin-top: 50px;
+}
+
+#greetingForm input, #greetingForm textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ff1493; /* إطار ملون */
+    border-radius: 10px;
+}
+
+#greetingForm textarea {
+    height: 150px;
+}
+
+#greetingForm button {
+    padding: 10px 20px;
+    background-color: #ff1493; /* لون زر الاحتفال */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#greetingsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#greetingsList li {
+    background-color: #ffe6e6;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 1rem;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff1493;
+    margin-bottom: 20px;
+}
